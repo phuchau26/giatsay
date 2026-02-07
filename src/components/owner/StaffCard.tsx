@@ -48,7 +48,7 @@ export default function StaffCard({ staff, onView, onEdit }: StaffCardProps) {
           </div>
 
           <p className="text-sm text-text-secondary mt-2">
-            {staff.completedOrders} đơn hoàn thành
+            {staff.ordersCompleted} đơn hoàn thành
           </p>
         </div>
 
